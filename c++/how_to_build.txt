@@ -1,0 +1,4 @@
+mkdir build
+cd build
+cmake -DCMAKE_PREFIX_PATH=/home/p/pmzrsg/libtorch ..
+cmake --build . --config Release [takes 2-3mins]
